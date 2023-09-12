@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBarItem: NSStatusItem?
     var popOver: NSPopover?
     let contentView = ContentView()
-    let hotKey = HotKey(key: .p, modifiers: [.command])
+    let hotKey = HotKey(key: .space, modifiers: [ .option])
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         self.popOver = NSPopover()

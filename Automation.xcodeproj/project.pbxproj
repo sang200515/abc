@@ -27,7 +27,7 @@
 		8E931D1A2AAE1CB4008DE243 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0B2AAE1CB4008DE243 /* Extension+Color.swift */; };
 		8E931D1C2AAE1CB4008DE243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0D2AAE1CB4008DE243 /* ContentView.swift */; };
 		8E931D1D2AAE1CB4008DE243 /* JsonFormatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */; };
-		8E94646E2AB0BDBB007F2CF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E94646D2AB0BDBB007F2CF8 /* Info.plist */; };
+		8E94646F2AB0BE87007F2CF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E94646D2AB0BDBB007F2CF8 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -260,7 +260,7 @@
 				8E931D162AAE1CB4008DE243 /* Preview Assets.xcassets in Resources */,
 				8E931CF62AAE1CAC008DE243 /* Preview Assets.xcassets in Resources */,
 				8E931D132AAE1CB4008DE243 /* Assets.xcassets in Resources */,
-				8E94646E2AB0BDBB007F2CF8 /* Info.plist in Resources */,
+				8E94646F2AB0BE87007F2CF8 /* Info.plist in Resources */,
 				8E931CF32AAE1CAC008DE243 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +418,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Automation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Automation/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = Automation/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,6 +445,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Automation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Automation/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
