@@ -16,6 +16,7 @@ final class HomeState: ObservableObject {
     @Published var itemSelected: HomeItemModel? =  HomeItemModel( title: "Json Formater", image: Image("jsonFormater"), type: .home)
     @Published var type: HomeState.submitType = .home
     private(set) var listItems: [HomeItemModel] = [
+        HomeItemModel( title: "Ruler like Figma", image: Image("fm"), type: .ruler),
         HomeItemModel( title: "Json Formater", image: Image("jsonFormater"), type: .jsonFormater),
         HomeItemModel(title: "Translate", image: Image("translate"), type: .translate)
     ]
@@ -31,6 +32,7 @@ final class HomeState: ObservableObject {
     enum submitType {
         case jsonFormater
         case translate
+        case ruler
         case home
     }
 

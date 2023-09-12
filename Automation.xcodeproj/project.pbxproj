@@ -28,6 +28,7 @@
 		8E931D1C2AAE1CB4008DE243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0D2AAE1CB4008DE243 /* ContentView.swift */; };
 		8E931D1D2AAE1CB4008DE243 /* JsonFormatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */; };
 		8E94646F2AB0BE87007F2CF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E94646D2AB0BDBB007F2CF8 /* Info.plist */; };
+		8E9464732AB0C201007F2CF8 /* SreenShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9464722AB0C201007F2CF8 /* SreenShotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		8E931D0D2AAE1CB4008DE243 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonFormatView.swift; sourceTree = "<group>"; };
 		8E94646D2AB0BDBB007F2CF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9464722AB0C201007F2CF8 /* SreenShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SreenShotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				8E931D0A2AAE1CB4008DE243 /* Translate.swift */,
 				8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */,
 				8E8F0C742AB09BEE006EBE1B /* ColorPickerView.swift */,
+				8E9464722AB0C201007F2CF8 /* SreenShotView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				8E931D142AAE1CB4008DE243 /* HomeView.swift in Sources */,
 				8E931D1C2AAE1CB4008DE243 /* ContentView.swift in Sources */,
 				8E931D122AAE1CB4008DE243 /* Extension+Array.swift in Sources */,
+				8E9464732AB0C201007F2CF8 /* SreenShotView.swift in Sources */,
 				8E931D1D2AAE1CB4008DE243 /* JsonFormatView.swift in Sources */,
 				8E931D172AAE1CB4008DE243 /* HomeViewState.swift in Sources */,
 				8E931D192AAE1CB4008DE243 /* Translate.swift in Sources */,

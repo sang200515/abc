@@ -26,7 +26,12 @@ struct HomeView: View {
                 state.type = .home
             })
                 .frame(width: 700, height: 500)
-            
+
+        case .ruler:
+            SreenShotView(onAction: {
+                state.type = .home
+            })
+                .frame(width: 700, height: 500)
         }
     }
 
