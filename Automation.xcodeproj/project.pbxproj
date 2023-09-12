@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E8F0C752AB09BEE006EBE1B /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F0C742AB09BEE006EBE1B /* ColorPickerView.swift */; };
+		8E8F0C782AB0A519006EBE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F0C772AB0A519006EBE1B /* AppDelegate.swift */; };
+		8E8F0C802AB0A7F6006EBE1B /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8F0C7F2AB0A7F6006EBE1B /* HotKey */; };
 		8E8FD1B52AAF69F0004E8EC7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FD1B42AAF69F0004E8EC7 /* TestView.swift */; };
 		8E931CEF2AAE1CAB008DE243 /* AutomationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */; };
 		8E931CF32AAE1CAC008DE243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E931CF22AAE1CAC008DE243 /* Assets.xcassets */; };
 		8E931CF62AAE1CAC008DE243 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E931CF52AAE1CAC008DE243 /* Preview Assets.xcassets */; };
 		8E931D0F2AAE1CB4008DE243 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931CFE2AAE1CB4008DE243 /* AppData.swift */; };
-		8E931D102AAE1CB4008DE243 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931CFF2AAE1CB4008DE243 /* Test.swift */; };
 		8E931D112AAE1CB4008DE243 /* HomeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D002AAE1CB4008DE243 /* HomeItemModel.swift */; };
 		8E931D122AAE1CB4008DE243 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D022AAE1CB4008DE243 /* Extension+Array.swift */; };
 		8E931D132AAE1CB4008DE243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E931D032AAE1CB4008DE243 /* Assets.xcassets */; };
@@ -25,9 +27,12 @@
 		8E931D1A2AAE1CB4008DE243 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0B2AAE1CB4008DE243 /* Extension+Color.swift */; };
 		8E931D1C2AAE1CB4008DE243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0D2AAE1CB4008DE243 /* ContentView.swift */; };
 		8E931D1D2AAE1CB4008DE243 /* JsonFormatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */; };
+		8E94646E2AB0BDBB007F2CF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E94646D2AB0BDBB007F2CF8 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E8F0C742AB09BEE006EBE1B /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		8E8F0C772AB0A519006EBE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E8FD1B42AAF69F0004E8EC7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		8E931CEB2AAE1CAB008DE243 /* Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationApp.swift; sourceTree = "<group>"; };
@@ -35,7 +40,6 @@
 		8E931CF52AAE1CAC008DE243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E931CF72AAE1CAC008DE243 /* Automation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Automation.entitlements; sourceTree = "<group>"; };
 		8E931CFE2AAE1CB4008DE243 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
-		8E931CFF2AAE1CB4008DE243 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		8E931D002AAE1CB4008DE243 /* HomeItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeItemModel.swift; sourceTree = "<group>"; };
 		8E931D012AAE1CB4008DE243 /* Sang_s_App.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Sang_s_App.entitlements; sourceTree = "<group>"; };
 		8E931D022AAE1CB4008DE243 /* Extension+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Array.swift"; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 		8E931D0B2AAE1CB4008DE243 /* Extension+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
 		8E931D0D2AAE1CB4008DE243 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonFormatView.swift; sourceTree = "<group>"; };
+		8E94646D2AB0BDBB007F2CF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +61,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8F0C802AB0A7F6006EBE1B /* HotKey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E8F0C732AB09BCF006EBE1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E931D052AAE1CB4008DE243 /* CodeImageView.swift */,
+				8E931D0A2AAE1CB4008DE243 /* Translate.swift */,
+				8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */,
+				8E8F0C742AB09BEE006EBE1B /* ColorPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E8F0C762AB0A50C006EBE1B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8E931D0D2AAE1CB4008DE243 /* ContentView.swift */,
+				8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */,
+				8E8F0C772AB0A519006EBE1B /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8E8F0C792AB0A75A006EBE1B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E931D022AAE1CB4008DE243 /* Extension+Array.swift */,
+				8E931D092AAE1CB4008DE243 /* Extension+View+Modifier.swift */,
+				8E931D0B2AAE1CB4008DE243 /* Extension+Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8E8F0C7A2AB0A76C006EBE1B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8E931D002AAE1CB4008DE243 /* HomeItemModel.swift */,
+				8E931D042AAE1CB4008DE243 /* HomeView.swift */,
+				8E931D082AAE1CB4008DE243 /* HomeViewState.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8E8F0C7B2AB0A78D006EBE1B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8E8F0C7C2AB0A79C006EBE1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E8F0C7A2AB0A76C006EBE1B /* Home */,
+				8E8F0C732AB09BCF006EBE1B /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8E8F0C7D2AB0A7A7006EBE1B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E931CFE2AAE1CB4008DE243 /* AppData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8E931CE22AAE1CAB008DE243 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +152,10 @@
 		8E931CED2AAE1CAB008DE243 /* Automation */ = {
 			isa = PBXGroup;
 			children = (
-				8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */,
-				8E931D0D2AAE1CB4008DE243 /* ContentView.swift */,
+				8E94646D2AB0BDBB007F2CF8 /* Info.plist */,
+				8E8F0C7B2AB0A78D006EBE1B /* Resource */,
+				8E8F0C792AB0A75A006EBE1B /* Extension */,
+				8E8F0C762AB0A50C006EBE1B /* AppDelegate */,
 				8E931CFD2AAE1CB4008DE243 /* App */,
 				8E931CF22AAE1CAC008DE243 /* Assets.xcassets */,
 				8E931CF72AAE1CAC008DE243 /* Automation.entitlements */,
@@ -102,20 +175,11 @@
 		8E931CFD2AAE1CB4008DE243 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				8E931CFE2AAE1CB4008DE243 /* AppData.swift */,
-				8E931CFF2AAE1CB4008DE243 /* Test.swift */,
-				8E931D002AAE1CB4008DE243 /* HomeItemModel.swift */,
+				8E8F0C7D2AB0A7A7006EBE1B /* Data */,
+				8E8F0C7C2AB0A79C006EBE1B /* Classes */,
 				8E931D012AAE1CB4008DE243 /* Sang_s_App.entitlements */,
-				8E931D022AAE1CB4008DE243 /* Extension+Array.swift */,
 				8E931D032AAE1CB4008DE243 /* Assets.xcassets */,
-				8E931D042AAE1CB4008DE243 /* HomeView.swift */,
-				8E931D052AAE1CB4008DE243 /* CodeImageView.swift */,
 				8E931D062AAE1CB4008DE243 /* Preview Content */,
-				8E931D082AAE1CB4008DE243 /* HomeViewState.swift */,
-				8E931D092AAE1CB4008DE243 /* Extension+View+Modifier.swift */,
-				8E931D0A2AAE1CB4008DE243 /* Translate.swift */,
-				8E931D0B2AAE1CB4008DE243 /* Extension+Color.swift */,
-				8E931D0E2AAE1CB4008DE243 /* JsonFormatView.swift */,
 				8E8FD1B42AAF69F0004E8EC7 /* TestView.swift */,
 			);
 			path = App;
@@ -145,6 +209,9 @@
 			dependencies = (
 			);
 			name = Automation;
+			packageProductDependencies = (
+				8E8F0C7F2AB0A7F6006EBE1B /* HotKey */,
+			);
 			productName = Automation;
 			productReference = 8E931CEB2AAE1CAB008DE243 /* Automation.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 8E931CE22AAE1CAB008DE243;
+			packageReferences = (
+				8E8F0C7E2AB0A7F6006EBE1B /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
 			productRefGroup = 8E931CEC2AAE1CAB008DE243 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -190,6 +260,7 @@
 				8E931D162AAE1CB4008DE243 /* Preview Assets.xcassets in Resources */,
 				8E931CF62AAE1CAC008DE243 /* Preview Assets.xcassets in Resources */,
 				8E931D132AAE1CB4008DE243 /* Assets.xcassets in Resources */,
+				8E94646E2AB0BDBB007F2CF8 /* Info.plist in Resources */,
 				8E931CF32AAE1CAC008DE243 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,14 +278,15 @@
 				8E931D122AAE1CB4008DE243 /* Extension+Array.swift in Sources */,
 				8E931D1D2AAE1CB4008DE243 /* JsonFormatView.swift in Sources */,
 				8E931D172AAE1CB4008DE243 /* HomeViewState.swift in Sources */,
-				8E931D102AAE1CB4008DE243 /* Test.swift in Sources */,
 				8E931D192AAE1CB4008DE243 /* Translate.swift in Sources */,
+				8E8F0C782AB0A519006EBE1B /* AppDelegate.swift in Sources */,
 				8E931CEF2AAE1CAB008DE243 /* AutomationApp.swift in Sources */,
 				8E931D1A2AAE1CB4008DE243 /* Extension+Color.swift in Sources */,
 				8E931D0F2AAE1CB4008DE243 /* AppData.swift in Sources */,
 				8E931D112AAE1CB4008DE243 /* HomeItemModel.swift in Sources */,
 				8E931D152AAE1CB4008DE243 /* CodeImageView.swift in Sources */,
 				8E931D182AAE1CB4008DE243 /* Extension+View+Modifier.swift in Sources */,
+				8E8F0C752AB09BEE006EBE1B /* ColorPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +478,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E8F0C7E2AB0A7F6006EBE1B /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E8F0C7F2AB0A7F6006EBE1B /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E8F0C7E2AB0A7F6006EBE1B /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E931CE32AAE1CAB008DE243 /* Project object */;
 }
