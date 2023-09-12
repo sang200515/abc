@@ -16,7 +16,7 @@ struct AutomationApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .frame(width: 400, height: 500, alignment: .center)
+                .frame(width: 700, height: 500, alignment: .center)
         }
     }
 }
@@ -33,8 +33,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         hotKey.keyDownHandler = {
             self.togglePopover(nil)
         }
-
-
     }
 
     private func configureUIPopover(){
@@ -92,6 +90,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @objc func somethingAction(_ sender: NSMenuItem) {
-        self.togglePopover(nil)
+       print("do some thing")
     }
 }

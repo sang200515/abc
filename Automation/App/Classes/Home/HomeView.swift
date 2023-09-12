@@ -28,9 +28,7 @@ struct HomeView: View {
                 .frame(width: 700, height: 500)
 
         case .ruler:
-            SreenShotView(onAction: {
-                state.type = .home
-            })
+            ScreenShotView()
                 .frame(width: 700, height: 500)
         }
     }
@@ -46,13 +44,14 @@ struct HomeView: View {
                 Spacer()
             }
             .padding()
-            .frame(width: 700, height: 500)
+
             .onAppear {
                 DispatchQueue.main.async {
                     state.isTextFieldActive = true
                 }
             }
         }
+        .frame(width: 700, height: 500)
     }
 
 }
@@ -131,18 +130,6 @@ private extension HomeView {
     }
 }
 
-
-//MARK: UI Logics
-private extension HomeView {
-
-    func openGoogleChrome() {
-        do {
-            try NSWorkspace.shared.open([state.targetURL], withApplicationAt: state.googleChromeURL, options: [], configuration: [:])
-        } catch {
-            print("failed")
-        }
-    }
-}
 private struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView(state: HomeState())

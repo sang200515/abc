@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8E8F0C752AB09BEE006EBE1B /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F0C742AB09BEE006EBE1B /* ColorPickerView.swift */; };
-		8E8F0C782AB0A519006EBE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F0C772AB0A519006EBE1B /* AppDelegate.swift */; };
 		8E8F0C802AB0A7F6006EBE1B /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8F0C7F2AB0A7F6006EBE1B /* HotKey */; };
 		8E8FD1B52AAF69F0004E8EC7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FD1B42AAF69F0004E8EC7 /* TestView.swift */; };
 		8E931CEF2AAE1CAB008DE243 /* AutomationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */; };
@@ -33,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		8E8F0C742AB09BEE006EBE1B /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		8E8F0C772AB0A519006EBE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E8FD1B42AAF69F0004E8EC7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		8E931CEB2AAE1CAB008DE243 /* Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationApp.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			children = (
 				8E931D0D2AAE1CB4008DE243 /* ContentView.swift */,
 				8E931CEE2AAE1CAB008DE243 /* AutomationApp.swift */,
-				8E8F0C772AB0A519006EBE1B /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -283,7 +280,6 @@
 				8E931D1D2AAE1CB4008DE243 /* JsonFormatView.swift in Sources */,
 				8E931D172AAE1CB4008DE243 /* HomeViewState.swift in Sources */,
 				8E931D192AAE1CB4008DE243 /* Translate.swift in Sources */,
-				8E8F0C782AB0A519006EBE1B /* AppDelegate.swift in Sources */,
 				8E931CEF2AAE1CAB008DE243 /* AutomationApp.swift in Sources */,
 				8E931D1A2AAE1CB4008DE243 /* Extension+Color.swift in Sources */,
 				8E931D0F2AAE1CB4008DE243 /* AppData.swift in Sources */,
